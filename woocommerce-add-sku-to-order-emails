@@ -1,0 +1,9 @@
+<?php
+
+// Show sku in order emails
+
+function sku_in_emails( $args ) {
+	$args['show_sku'] = true;
+	return $args;
+}
+add_filter( 'woocommerce_email_order_items_args', 'sku_in_emails', 10, 1 );
