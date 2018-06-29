@@ -1,1 +1,1 @@
-# woocommerce-code-snippets
+# Woocommerce Code Snippets
