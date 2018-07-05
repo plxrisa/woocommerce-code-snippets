@@ -3,10 +3,7 @@
 //Remove woocommerce additional information tab
 
 function xr_remove_product_tabs( $tabs ) {
-unset( $tabs['additional_information'] );
-return $tabs;
+	unset( $tabs['additional_information'] );
+	return $tabs;
 }
 add_filter( 'woocommerce_product_tabs', 'xr_remove_product_tabs', 98 );
-
-
-
