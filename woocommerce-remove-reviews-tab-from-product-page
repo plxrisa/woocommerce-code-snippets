@@ -6,7 +6,7 @@ function xr_remove_reviews_tab( $tabs ) {
   unset( $tabs['reviews'] );
   return $tabs;
 }
-add_filter( 'woocommerce_product_tabs', 'xr_remove_reviews_tab', 95 
+add_filter( 'woocommerce_product_tabs', 'xr_remove_reviews_tab', 95 );
 
 
 
