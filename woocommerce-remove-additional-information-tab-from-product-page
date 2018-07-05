@@ -7,3 +7,6 @@ function xr_remove_product_tabs( $tabs ) {
 	return $tabs;
 }
 add_filter( 'woocommerce_product_tabs', 'xr_remove_product_tabs', 98 );
+
+
+
