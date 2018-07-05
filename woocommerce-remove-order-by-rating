@@ -2,11 +2,11 @@
 
 //Remove order by rating
 
-function remove_orderby_rating( $orderby ) {
+function xr_remove_orderby_rating( $orderby ) {
 unset($orderby["rating"]);
 return $orderby;
 }
-add_filter( "woocommerce_catalog_orderby", 'remove_orderby_rating', 20 );
+add_filter( "woocommerce_catalog_orderby", 'xr_remove_orderby_rating', 20 );
 
 
 
