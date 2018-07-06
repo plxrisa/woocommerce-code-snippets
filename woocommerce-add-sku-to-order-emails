@@ -1,7 +1,7 @@
 <?php
+//Do NOT include the opening php tag
 
-// Show sku in order emails
-
+//Add sku to order emails
 function xr_sku_in_emails( $args ) {
   $args['show_sku'] = true;
   return $args;
