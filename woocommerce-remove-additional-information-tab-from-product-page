@@ -1,7 +1,7 @@
 <?php
+//Do NOT include the opening php tag
 
-//Remove woocommerce additional information tab
-
+//Remove additional information tab from product page
 function xr_remove_product_tabs( $tabs ) {
   unset( $tabs['additional_information'] );
   return $tabs;
