@@ -1,7 +1,7 @@
 <?php
+//Do NOT include the opening php tag
 
 //Remove order by rating
-
 function xr_remove_orderby_rating( $orderby ) {
   unset($orderby["rating"]);
   return $orderby;
