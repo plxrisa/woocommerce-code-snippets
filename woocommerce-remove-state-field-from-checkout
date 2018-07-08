@@ -1,0 +1,12 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove state field from checkout
+function xr_remove_state_field($fields) {
+  unset( $fields ['state'] );
+  return $fields;
+}
+add_filter( 'woocommerce_default_address_fields', 'xr_remove_state_field' );
+
+
+
