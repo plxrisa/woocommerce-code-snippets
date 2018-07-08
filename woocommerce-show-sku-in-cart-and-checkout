@@ -1,0 +1,15 @@
+<?php
+//Do NOT include the opening php tag
+
+//Show SKU in cart and checkout
+function xr_show_sku_in_cart_checkout( $item_name, $cart_item, $cart_item_key ) {
+  $product = $cart_item['data'];
+  $sku = $product->get_sku();
+  if(empty($sku)) return $item_name;
+  $item_name .= '<br><small class="product-sku">' . __( "SKU: ", "woocommerce") . $sku . '</small>';
+  return $item_name;
+}
+add_filter( 'woocommerce_cart_item_name', 'xr_show_sku_in_cart_checkout', 99, 3 );
+
+
+
