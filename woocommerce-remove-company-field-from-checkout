@@ -1,0 +1,12 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove company field from checkout
+function xr_remove_company_field($fields) {
+  unset( $fields ['company'] );
+  return $fields;
+}
+add_filter( 'woocommerce_default_address_fields', 'xr_remove_company_field' );
+
+
+
