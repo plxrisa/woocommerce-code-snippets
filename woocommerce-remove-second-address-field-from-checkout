@@ -1,0 +1,12 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove second address field from checkout
+function xr_remove_second_address_field($fields) {
+  unset( $fields ['address_2'] );
+  return $fields;
+}
+add_filter( 'woocommerce_default_address_fields', 'xr_remove_second_address_field' );
+
+
+
