@@ -6,3 +6,4 @@ Usefull snippets for woocommerce store.
 * [Remove company field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-company-field-from-checkout)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-reviews-tab-from-product-page)
+* [Remove state field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-state-field-from-checkout)
