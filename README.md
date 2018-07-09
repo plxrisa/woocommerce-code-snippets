@@ -11,11 +11,10 @@ Usefull snippets for woocommerce store.
 * [Remove state field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-state-field-from-checkout)
 * [Show SKU in cart and checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-show-sku-in-cart-and-checkout)
 
-
-
-
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
+
+* [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
 * [Remove WP version from admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version-from-admin-footer)
 
 
