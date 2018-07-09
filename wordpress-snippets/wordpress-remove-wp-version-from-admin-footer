@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove WP version from admin footer
+function xr_remove_footer_version() {
+  remove_filter( 'update_footer', 'core_update_footer' );
+}
+add_action( 'admin_menu', 'xr_remove_footer_version' );
+
+
+
