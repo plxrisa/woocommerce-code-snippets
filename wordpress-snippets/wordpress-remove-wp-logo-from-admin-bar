@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove WP logo from admin bar
+function xr_remove_bar_logo( $wp_admin_bar ) {
+  $wp_admin_bar->remove_node( 'wp-logo' );
+}
+add_action( 'admin_bar_menu', 'xr_remove_bar_logo', 999 );
+
+
+
