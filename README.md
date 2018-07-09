@@ -10,3 +10,14 @@ Usefull snippets for woocommerce store.
 * [Remove second address field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-second-address-field-from-checkout)
 * [Remove state field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-state-field-from-checkout)
 * [Show SKU in cart and checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-show-sku-in-cart-and-checkout)
+
+
+
+
+### WordPress Snippets (Folder)
+Usefull WordPress snippets for increasing woocommerce store.
+* [Remove WP version from admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version-from-admin-footer)
+
+
+
+
