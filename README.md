@@ -14,6 +14,7 @@ Usefull snippets for woocommerce store.
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
 
+* [Change the text "Thank you for creating with WordPress" in admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-text-in-admin-footer)
 * [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
 * [Remove WP version from admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version-from-admin-footer)
 
