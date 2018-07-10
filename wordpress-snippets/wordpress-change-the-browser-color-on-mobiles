@@ -1,0 +1,12 @@
+<?php
+//Do NOT include the opening php tag
+
+//Change the browser color on mobiles
+function xr_browser_color() { ?>
+  <meta name="theme-color" content="#000000" />
+<?php
+}
+add_action('wp_head', 'xr_browser_color', 5 );
+
+
+
