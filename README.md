@@ -2,6 +2,7 @@
 Usefull snippets for woocommerce store.
 
 * [Add sku to order emails](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sku-to-order-emails)
+* [Hide shipping when free is availiable](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-availiable)
 * [Remove additional information tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-additional-information-tab-from-product-page)
 * [Remove company field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-company-field-from-checkout)
 * [Remove coupon field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-from-checkout)
