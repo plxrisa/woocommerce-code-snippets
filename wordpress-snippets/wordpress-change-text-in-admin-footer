@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Change the text "Thank you for creating with WordPress" in admin footer
+function xr_custom_text_admin_footer(){
+  echo '<span id="note-for-footer">YOUR TEXT HERE<span>';
+}
+add_filter('admin_footer_text', 'xr_custom_text_admin_footer');
+
+
+
