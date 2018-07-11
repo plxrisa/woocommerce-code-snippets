@@ -1,7 +1,7 @@
 <?php
 //Do NOT include the opening php tag
 
-//Add verification field email on checkout
+//Add email verification field on checkout
 function xr_checkout_email_verification_field( $fields ) {
   $fields['billing']['billing_email']['class'] = array('form-row-first');
   $fields['billing']['billing_email_ver'] = array(
