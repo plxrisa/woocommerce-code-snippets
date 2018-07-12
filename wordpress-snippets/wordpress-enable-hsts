@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//WordPress - Enable HSTS 
+function xr_strict_transport_security() {
+  header( 'Strict-Transport-Security: max-age=10886400' );
+}
+add_action( 'send_headers', 'xr_strict_transport_security' );
+
+
+
