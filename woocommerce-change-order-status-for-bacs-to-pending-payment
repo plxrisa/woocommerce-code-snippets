@@ -1,0 +1,24 @@
+<?php
+//Do NOT include the opening php tag
+
+//Change order status for BACS to pending payment
+function xr_bacs_order_order_status_pending_payment( $order_id ) {
+  if ( ! $order_id ) {
+    return;
+  }
+  
+  global $woocommerce;
+  $order = new WC_Order( $order_id );
+  
+  if ( ( get_post_meta($order->id, '_payment_method', true) == 'bacs' ) && ('on-hold' == $order->status || 'pending' == $order->status) ) {
+    $order->update_status('pending payment');
+  }
+  
+  else {
+    return;
+  }
+}
+add_action( 'woocommerce_thankyou', 'xr_bacs_order_order_status_pending_payment', 10, 1 );
+
+
+
