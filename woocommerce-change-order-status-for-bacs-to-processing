@@ -1,7 +1,7 @@
 <?php
 //Do NOT include the opening php tag
 
-//Change order status for BACS to pending payment
+//Change order status for BACS to processing
 function xr_bacs_order_order_status_processing( $order_id ) {
   if ( ! $order_id ) {
     return;
