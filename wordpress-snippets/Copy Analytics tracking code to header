@@ -1,0 +1,14 @@
+<?php
+//Do NOT include the opening php tag
+
+//Copy Analytics tracking code to header
+function xr_analytics_code() { ?>
+
+//YOUR SCRIPT HERE
+
+<?php
+}
+add_action('wp_head', 'xr_analytics_code', 1 );
+
+
+
