@@ -1,0 +1,14 @@
+<?php
+//Do NOT include the opening php tag
+
+//Redirect shop page to homepage
+function xr_shop_page_redirect() {
+  if( is_shop() && !is_search() ) {
+    wp_redirect( home_url( '/' ),301 );
+    exit();
+  }
+}
+add_action( 'template_redirect', 'xr_shop_page_redirect' );
+
+
+
