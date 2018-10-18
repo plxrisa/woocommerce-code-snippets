@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Rename Add To Cart button in product page
+function rename_product_page_cart_button() {
+	return __( 'YOUR TEXT HERE', 'woocommerce' );
+}
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'rename_product_page_cart_button' );
+
+
+
