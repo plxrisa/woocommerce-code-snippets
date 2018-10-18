@@ -7,11 +7,7 @@ Usefull snippets for woocommerce store.
 * [Hide shipping when free is availiable](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-availiable)
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
-* [Remove additional information tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-additional-information-tab-from-product-page)
-* [Remove In Stock message](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-in-stock-message)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
-* [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-reviews-tab-from-product-page)
-* [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-rename-add-to-cart-button-in-product-page)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
 
 ### Woocommerce Checkout Snippets (Folder)
@@ -22,6 +18,13 @@ Usefull snippets for woocommerce store.
 * [Remove second address field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-second-address-field-from-checkout)
 * [Remove state field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-state-field-from-checkout)
 * [Show SKU in cart and checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-show-sku-in-cart-and-checkout)
+
+### Woocommerce Product Page Snippets (Folder)
+* [Remove additional information tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-remove-additional-information-tab-from-product-page)
+* [Remove description title from description tab](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-remove-description-title-from-description-tab)
+* [Remove In Stock message](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-remove-in-stock-message)
+* [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-remove-reviews-tab-from-product-page)
+* [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-rename-add-to-cart-button-in-product-page)
 
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
