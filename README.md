@@ -14,6 +14,7 @@ Usefull snippets for woocommerce store.
 ### Woocommerce Checkout Snippets (Folder)
 * [Add email verification field on checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-email-verification-field-on-checkout)
 * [Add password verification field on checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-password-verification-field-on-checkout)
+* [Force phone code on checkout process](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-force-phone-code-on-checkout-process)
 * [Remove company field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-company-field-from-checkout)
 * [Remove coupon field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-coupon-field-from-checkout)
 * [Remove second address field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-second-address-field-from-checkout)
