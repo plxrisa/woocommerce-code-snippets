@@ -2,14 +2,14 @@
 //Do NOT include the opening php tag
 
 //Remove In Stock message
-function hide_in_stock_message( $html, $text, $product ) {
+function xr_hide_in_stock_message( $html, $text, $product ) {
   $availability = $product->get_availability();
   if ( isset( $availability['class'] ) && 'in-stock' === $availability['class'] ) {
     return '';
   }
   return $html;
 }
-add_filter( 'woocommerce_stock_html', 'hide_in_stock_message', 10, 3 );
+add_filter( 'woocommerce_stock_html', 'xr_hide_in_stock_message', 10, 3 );
 
 
 
