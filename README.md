@@ -11,6 +11,7 @@ Usefull snippets for woocommerce store.
 * [Remove In Stock message](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-in-stock-message)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-reviews-tab-from-product-page)
+* [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-rename-add-to-cart-button-in-product-page)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
 
 ### Woocommerce Checkout Snippets (Folder)
