@@ -1,0 +1,22 @@
+<?php
+//Do NOT include the opening php tag
+
+//Force phone code on checkout process
+//Replace +33 with your code
+function xr_checkout_process_force_phone_code() {
+  $number_length = strlen($_POST['billing_phone']);
+    if($number_length == 11) {
+    if($_POST['billing_phone'][0] == 0) {
+      $_POST['billing_phone'] = substr($_POST['billing_phone'], 1);
+      $_POST['billing_phone'] = '+33 '.$_POST['billing_phone'];
+    }
+  }
+  
+  elseif($number_length == 10) {
+    $_POST['billing_phone'] = '+33 '.$_POST['billing_phone'];
+  }
+}
+add_action('woocommerce_checkout_process', 'xr_checkout_process_force_phone_code');
+
+
+
