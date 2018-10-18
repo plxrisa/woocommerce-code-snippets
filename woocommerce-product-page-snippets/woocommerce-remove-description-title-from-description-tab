@@ -1,0 +1,8 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove description title from description tab
+add_filter('woocommerce_product_description_heading', '__return_empty_string');
+
+
+
