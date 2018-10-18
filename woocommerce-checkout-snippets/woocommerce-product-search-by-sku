@@ -1,0 +1,29 @@
+<?php
+//Do NOT include the opening php tag
+
+//Product search by SKU
+function xr_join_product_search( $join, $query ) {
+  if ( ! $query->is_main_query() || is_admin() || ! is_search() || ! is_woocommerce() ) {
+    return $join;
+  }
+  global $wpdb;
+  $join .= " LEFT JOIN {$wpdb->postmeta} post_meta ON {$wpdb->posts}.ID = post_meta.post_id ";
+  return $join;
+}
+add_filter( 'posts_join', 'xr_join_product_search', 10, 2 );
+
+function xr_where_product_search( $where, $query ) {
+  if ( ! $query->is_main_query() || is_admin() || ! is_search() || ! is_woocommerce() ) {
+    return $where;
+  }
+  global $wpdb;
+  $where = preg_replace(
+    "/\(\s*{$wpdb->posts}.post_title\s+LIKE\s*(\'[^\']+\')\s*\)/",
+    "({$wpdb->posts}.post_title LIKE $1) OR (post_meta.meta_key = '_sku' AND post_meta.meta_value LIKE $1)", $where
+  );
+  return $where;
+}
+add_filter( 'posts_where', 'xr_where_product_search', 10, 2 );
+
+
+
