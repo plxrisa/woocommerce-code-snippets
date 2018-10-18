@@ -8,6 +8,7 @@ Usefull snippets for woocommerce store.
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
 * [Remove additional information tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-additional-information-tab-from-product-page)
+* [Remove In Stock message](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-in-stock-message)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-reviews-tab-from-product-page)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
