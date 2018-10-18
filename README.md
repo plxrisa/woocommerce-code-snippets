@@ -6,6 +6,7 @@ Usefull snippets for woocommerce store.
 * [Change order status for BACS to processing](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-processing)
 * [Hide shipping when free is availiable](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-availiable)
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
+* [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
 * [Remove additional information tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-additional-information-tab-from-product-page)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-reviews-tab-from-product-page)
