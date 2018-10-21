@@ -1,0 +1,24 @@
+<?php
+//Do NOT include the opening php tag
+
+//Add Sort By Discount Option
+function xr_add_sortby_discount( $args ) {
+  $orderby_value = isset( $_GET['orderby'] ) ? woocommerce_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
+  if ( 'on_sale' == $orderby_value ) {
+    $args['orderby'] = 'meta_value_num';
+    $args['order'] = 'DESC';
+    $args['meta_key'] = '_sale_price'; 
+  }
+  return $args;
+}
+add_filter( 'woocommerce_get_catalog_ordering_args', 'xr_add_sortby_discount' );
+
+function xr_sort_by_discount( $sortby ) {
+  $sortby['on_sale'] = 'Super Offers';
+  return $sortby;
+}
+add_filter( 'woocommerce_catalog_orderby', 'xr_sort_by_discount' );
+add_filter( 'woocommerce_default_catalog_orderby_options', 'xr_sort_by_discount' );
+
+
+
