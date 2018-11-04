@@ -1,7 +1,7 @@
 <?php
 //Do NOT include the opening php tag
 
-//Remove "What Is Paypal" And Logo From Checkout
+//Remove "What is Paypal" and Logo from Checkout
 function xr_remove_what_is_paypal_and_logo( $icon_html, $gateway_id ) {
   if( 'paypal' == $gateway_id ) {
     $icon_html = '';
