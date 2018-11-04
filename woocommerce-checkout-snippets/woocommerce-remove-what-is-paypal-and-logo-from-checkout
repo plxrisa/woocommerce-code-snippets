@@ -1,0 +1,14 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove "What Is Paypal" And Logo From Checkout
+function xr_remove_what_is_paypal_and_logo( $icon_html, $gateway_id ) {
+  if( 'paypal' == $gateway_id ) {
+    $icon_html = '';
+  }
+  return $icon_html;
+}
+add_filter( 'woocommerce_gateway_icon', 'xr_remove_what_is_paypal_and_logo', 10, 2 );
+
+
+
