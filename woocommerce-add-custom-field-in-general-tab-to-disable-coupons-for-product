@@ -1,0 +1,61 @@
+<?php
+//Do NOT include the opening php tag
+
+//Add custom field in general tab to disable coupons for product
+function xr_add_custom_field_in_general_tab(){
+  global $post;
+  echo '<div class="disable_product_coupons_custom_field">';
+  woocommerce_wp_checkbox( array(
+    'id'        => '_disable_coupons_for_product',
+    'label'     => __('Disable coupons', 'woocommerce'),
+    'description' => __('Disable coupons for this product.', 'woocommerce'),
+    'desc_tip'  => 'true',
+  ));
+  echo '</div>';;
+}
+add_action( 'woocommerce_product_options_general_product_data', 'xr_add_custom_field_in_general_tab' );
+
+function xr_save_custom_field_in_general_tab( $post_id ){
+  $current_disabled = isset( $_POST['_disable_coupons_for_product'] ) ? 'yes' : 'no';
+  $disable_product = get_option( '_product_disable_for_coupon' );
+  if( empty($disable_product) ) {
+    if( $current_disabled == 'yes' )
+    $disable_product = array( $post_id );
+  }
+  
+  else {
+    if( $current_disabled == 'yes' ) {
+      $disable_product[] = $post_id;
+      $disable_product = array_unique( $disable_product );
+    }
+    
+    else {
+      if ( ( $key = array_search( $post_id, $disable_product ) ) !== false )
+      unset( $disable_product[$key] );
+    }
+  }
+  update_post_meta( $post_id, '_disable_coupons_for_product', $current_disabled );
+  update_option( '_product_disable_for_coupon', $disable_product );
+}
+add_action( 'woocommerce_process_product_meta', 'xr_save_custom_field_in_general_tab', 10, 1 );
+
+function xr_set_coupons_invalid_for_excluded_product($valid, $product, $coupon, $values ){
+  if( ! count(get_option( '_product_disable_for_coupon' )) > 0 ) return $valid;
+  $disable_product = get_option( '_product_disable_for_coupon' );
+  if( in_array( $product->get_id(), $disable_product ) )
+  $valid = false;
+  return $valid;
+}
+add_filter('woocommerce_coupon_is_valid_for_product', 'xr_set_coupons_invalid_for_excluded_product', 12, 4);
+
+function xr_set_zero_discount_for_excluded_product($discount, $discounting_amount, $cart_item, $single, $coupon ){
+  if( ! count(get_option( '_product_disable_for_coupon' )) > 0 ) return $discount;
+  $disable_product = get_option( '_product_disable_for_coupon' );
+  if( in_array( $cart_item['product_id'], $disable_product ) )
+  $discount = 0;
+  return $discount;
+}
+add_filter( 'woocommerce_coupon_get_discount_amount', 'xr_set_zero_discount_for_excluded_product', 12, 5 );
+
+
+
