@@ -1,6 +1,7 @@
 # Woocommerce Code Snippets
 Usefull snippets for woocommerce store.
 
+* [Add custom field in general tab to disable coupons for product](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-custom-field-in-general-tab-to-disable-coupons-for-product)
 * [Add sku to order emails](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sku-to-order-emails)
 * [Add Sort By Discount Option](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sort-by-discount-option)
 * [Change order status for BACS to pending payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-pending-payment)
