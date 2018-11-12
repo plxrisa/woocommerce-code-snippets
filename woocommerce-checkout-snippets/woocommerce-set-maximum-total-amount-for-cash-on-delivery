@@ -1,0 +1,17 @@
+<?php
+//Do NOT include the opening php tag
+
+//Set maximum total amount for Cash On Delivery
+//Replace 200 with your maximun total amount
+function xr_limit_cod_gateway( $available_gateways ) {
+  global $woocommerce;
+  $cart_total = $woocommerce->cart->total;
+  if ( isset( $available_gateways['cod'] ) && $cart_total > 200) {
+    unset(  $available_gateways['cod'] );
+  }
+  return $available_gateways;
+}
+add_filter( 'woocommerce_available_payment_gateways', 'xr_limit_cod_gateway' );
+
+
+
