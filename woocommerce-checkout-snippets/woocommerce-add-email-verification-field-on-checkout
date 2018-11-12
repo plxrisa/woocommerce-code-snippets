@@ -8,7 +8,8 @@ function xr_checkout_email_verification_field( $fields ) {
     'label'     => __('Email Verification', 'woocommerce'),
     'required'  => true,
     'class'     => array('form-row-last'),
-    'clear'     => true
+    'clear'     => true,
+    'priority'  => 120
   );
   return $fields;
 }
