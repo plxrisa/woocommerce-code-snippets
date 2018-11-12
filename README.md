@@ -23,6 +23,7 @@ Usefull snippets for woocommerce store.
 * [Remove second address field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-second-address-field-from-checkout)
 * [Remove state field from checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-state-field-from-checkout)
 * [Remove "What is Paypal" and Logo from Checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-remove-what-is-paypal-and-logo-from-checkout)
+* [Set maximum total amount for Cash On Delivery](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-set-maximum-total-amount-for-cash-on-delivery)
 * [Show SKU in cart and checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-show-sku-in-cart-and-checkout)
 
 ### Woocommerce Product Page Snippets (Folder)
