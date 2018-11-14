@@ -1,0 +1,27 @@
+<?php
+//Do NOT include the opening php tag
+
+//Add checkout fee for Cash On Delivery
+function xr_add_checkout_fee_for_cod() {
+  $chosen_gateway = WC()->session->chosen_payment_method;
+  if ( $chosen_gateway == 'cod' ) {
+    WC()->cart->add_fee( __('Extra Fee', 'woocommerce'), 2 );
+  }
+}
+add_action( 'woocommerce_cart_calculate_fees', 'xr_add_checkout_fee_for_cod' ); 
+ 
+function xr_refresh_checkout_when_cod_selected(){
+  ?>
+    <script type="text/javascript">
+      (function($){
+        $( 'form.checkout' ).on( 'change', 'input[name^="payment_method"]', function() {
+          $('body').trigger('update_checkout');
+        });
+      })(jQuery);
+    </script>
+  <?php
+}
+add_action( 'woocommerce_review_order_before_payment', 'xr_refresh_checkout_when_cod_selected' );
+
+
+
