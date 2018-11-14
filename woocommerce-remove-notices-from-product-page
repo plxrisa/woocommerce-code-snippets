@@ -1,0 +1,8 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove notices from Product Page
+remove_action( 'woocommerce_before_single_product', 'wc_print_notices', 10 );
+
+
+
