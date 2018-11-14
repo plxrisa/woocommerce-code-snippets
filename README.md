@@ -6,7 +6,7 @@ Usefull snippets for woocommerce store.
 * [Add Sort By Discount Option](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sort-by-discount-option)
 * [Change order status for BACS to pending payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-pending-payment)
 * [Change order status for BACS to processing](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-processing)
-* [Hide shipping when free is availiable](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-available)
+* [Hide shipping when free is available](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-available)
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
