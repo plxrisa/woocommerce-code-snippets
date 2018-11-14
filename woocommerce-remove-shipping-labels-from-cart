@@ -1,0 +1,12 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove shipping labels from cart
+function xr_remove_shipping_labels($label, $method) {
+  $new_label = preg_replace( '/^.+:/', '', $label );
+  return $new_label;
+}
+add_filter( 'woocommerce_cart_shipping_method_full_label', 'xr_remove_shipping_labels', 10, 2 );
+
+
+
