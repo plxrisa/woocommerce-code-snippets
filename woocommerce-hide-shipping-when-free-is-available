@@ -1,7 +1,7 @@
 <?php
 //Do NOT include the opening php tag
 
-//Hide shipping when free is availiable
+//Hide shipping when free is available
 function xr_hide_shipping_when_free_is_available( $rates ) {
   $free = array();
   foreach ( $rates as $rate_id => $rate ) {
