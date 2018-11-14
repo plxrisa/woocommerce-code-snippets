@@ -15,6 +15,7 @@ Usefull snippets for woocommerce store.
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
 
 ### Woocommerce Checkout Snippets (Folder)
+* [Add checkout fee for BACS payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-checkout-fee-for-bacs-payment)
 * [Add checkout fee for Cash On Delivery](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-checkout-fee-for-cash-on-delivery)
 * [Add email verification field on checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-email-verification-field-on-checkout)
 * [Add password verification field on checkout](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-password-verification-field-on-checkout)
