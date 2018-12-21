@@ -44,6 +44,7 @@ Usefull WordPress snippets for increasing woocommerce store.
 * [Change the text "Thank you for creating with WordPress" in admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-text-in-admin-footer)
 * [Change the browser color on mobiles](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-the-browser-color-on-mobiles)
 * [Copy Analytics tracking code to header](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-copy-analytics-code-to-header)
+* [Disable Gutenberg Editor](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-disable-gutenberg-editor)
 * [Enable HSTS](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-enable-hsts)
 * [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
 * [Remove WP version from admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version-from-admin-footer)
