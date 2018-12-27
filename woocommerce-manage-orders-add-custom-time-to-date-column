@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Manage Orders: Add Custom Time To Date Column
+function orders_column_custom_time( $post ) {
+  return get_post_time( __( 'd/m/Y H:i', 'woocommerce' ), $post );
+}
+add_filter( 'woocommerce_admin_order_date_format' , 'orders_column_custom_time' );
+
+
+
