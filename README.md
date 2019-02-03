@@ -11,7 +11,6 @@ Usefull snippets for woocommerce store.
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
 * [Remove coupon field after use](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-after-use)
-* [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove shipping labels from cart/checkout/emails/orders table](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-shipping-labels-from-cart-checkout-orders-table)
 * [Show regural and sale price in cart](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-show-regural-and-sale-price-in-cart)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
@@ -41,6 +40,7 @@ Usefull snippets for woocommerce store.
 ### Woocommerce Archive Pages Snippets (Folder)
 * [Product search by title only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-product-search-by-title-only)
 * [Remove notices from Product Archives](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-notices-from-product-archives)
+* [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-order-by-rating)
 
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
