@@ -14,6 +14,8 @@ Usefull snippets for woocommerce store.
 * [Show regural and sale price in cart](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-show-regural-and-sale-price-in-cart)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
 
+### Woocommerce Cart Page Snippets (Folder)
+
 ### Woocommerce Checkout Snippets (Folder)
 * [Add checkout fee for BACS payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-checkout-fee-for-bacs-payment)
 * [Add checkout fee for Cash On Delivery](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-checkout-fee-for-cash-on-delivery)
