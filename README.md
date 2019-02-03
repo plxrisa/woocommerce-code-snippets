@@ -40,7 +40,7 @@ Usefull snippets for woocommerce store.
 * [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-rename-add-to-cart-button-in-product-page)
 
 ### Woocommerce Archive Pages Snippets (Folder)
-* https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/product-search-by-title-only
+* [Product search by title only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/product-search-by-title-only)
 
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
