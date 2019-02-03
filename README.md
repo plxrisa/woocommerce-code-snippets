@@ -6,7 +6,6 @@ Usefull snippets for woocommerce store.
 * [Change order status for BACS to pending payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-pending-payment)
 * [Change order status for BACS to processing](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-processing)
 * [Manage Orders: Add Custom Time To Date Column](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-manage-orders-add-custom-time-to-date-column)
-* [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
 
 ### Woocommerce Cart Page Snippets (Folder)
@@ -40,6 +39,7 @@ Usefull snippets for woocommerce store.
 
 ### Woocommerce Archive Pages Snippets (Folder)
 * [Add Sort By Discount Option](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-add-sort-by-discount-option)
+* [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-product-search-by-sku)
 * [Product search by title only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-product-search-by-title-only)
 * [Remove notices from Product Archives](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-notices-from-product-archives)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-order-by-rating)
