@@ -10,9 +10,9 @@ Usefull snippets for woocommerce store.
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
 * [Remove coupon field after use](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-after-use)
-* [Remove shipping labels from cart/checkout/emails/orders table](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-shipping-labels-from-cart-checkout-orders-table)
 
 ### Woocommerce Cart Page Snippets (Folder)
+* [Remove shipping labels from cart/checkout/emails/orders table](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-cart-page-snippets/woocommerce-remove-shipping-labels-from-cart-checkout-orders-table)
 * [Show regural and sale price in cart](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-cart-page-snippets/woocommerce-show-regural-and-sale-price-in-cart)
 * [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-cart-page-snippets/woocommerce-sort-cart-items-alphabetically)
 
