@@ -11,6 +11,7 @@ Usefull snippets for woocommerce store.
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
 * [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
+* [Remove coupon field after use](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-after-use)
 * [Remove notices from Product Archives](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-notices-from-product-archives)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-order-by-rating)
 * [Remove shipping labels from cart/checkout/emails/orders table](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-shipping-labels-from-cart-checkout-orders-table)
