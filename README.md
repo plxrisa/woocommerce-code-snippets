@@ -9,7 +9,6 @@ Usefull snippets for woocommerce store.
 * [Hide shipping when free is available](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-available)
 * [Manage Orders: Add Custom Time To Date Column](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-manage-orders-add-custom-time-to-date-column)
 * [Product search by SKU](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-sku)
-* [Product Search by TITLE only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-search-by-title-only)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
 * [Remove coupon field after use](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-after-use)
 * [Remove notices from Product Archives](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-notices-from-product-archives)
@@ -41,6 +40,7 @@ Usefull snippets for woocommerce store.
 * [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-rename-add-to-cart-button-in-product-page)
 
 ### Woocommerce Archive Pages Snippets (Folder)
+* https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/product-search-by-title-only
 
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
