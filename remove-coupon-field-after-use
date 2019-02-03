@@ -1,0 +1,15 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove coupon field after use
+function xr_remove_coupon_field_after_use( $coupons_enabled ) {
+  global $woocommerce;
+  if ( ! empty( $woocommerce->cart->applied_coupons ) ) {
+    return false;
+  }
+  return $coupons_enabled;
+}
+add_filter( 'woocommerce_coupons_enabled', 'xr_remove_coupon_field_after_use' );
+
+
+
