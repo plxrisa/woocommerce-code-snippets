@@ -7,6 +7,7 @@ Usefull snippets for woocommerce store.
 * [Change order status for BACS to processing](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-processing)
 * [Manage Orders: Add Custom Time To Date Column](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-manage-orders-add-custom-time-to-date-column)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
+* [Stop Image Compression](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-stop-image-compression)
 
 ### Woocommerce Cart Page Snippets (Folder)
 * [Hide shipping when free is available](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-cart-page-snippets/woocommerce-hide-shipping-when-free-is-available)
