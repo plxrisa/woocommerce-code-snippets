@@ -1,0 +1,15 @@
+<?php
+//Do NOT include the opening php tag
+
+//Stop RSS Feed
+function xr_stop_rss_feed() {
+  wp_die( __('No feed available!') );
+}
+add_action('do_feed', 'xr_stop_rss_feed', 1);
+add_action('do_feed_rdf', 'xr_stop_rss_feed', 1);
+add_action('do_feed_rss', 'xr_stop_rss_feed', 1);
+add_action('do_feed_rss2', 'xr_stop_rss_feed', 1);
+add_action('do_feed_atom', 'xr_stop_rss_feed', 1);
+
+
+
