@@ -3,7 +3,6 @@ Usefull snippets for woocommerce store.
 
 * [Add custom field in general tab to disable coupons for product](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-custom-field-in-general-tab-to-disable-coupons-for-product)
 * [Add sku to order emails](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sku-to-order-emails)
-* [Add Sort By Discount Option](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-add-sort-by-discount-option)
 * [Change order status for BACS to pending payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-pending-payment)
 * [Change order status for BACS to processing](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-change-order-status-for-bacs-to-processing)
 * [Hide shipping when free is available](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-hide-shipping-when-free-is-available)
@@ -38,6 +37,7 @@ Usefull snippets for woocommerce store.
 * [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-rename-add-to-cart-button-in-product-page)
 
 ### Woocommerce Archive Pages Snippets (Folder)
+* [Add Sort By Discount Option](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-add-sort-by-discount-option)
 * [Product search by title only](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-product-search-by-title-only)
 * [Remove notices from Product Archives](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-notices-from-product-archives)
 * [Remove order by rating](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-archive-pages-snippets/woocommerce-remove-order-by-rating)
