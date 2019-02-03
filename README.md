@@ -12,9 +12,9 @@ Usefull snippets for woocommerce store.
 * [Remove coupon field after use](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-coupon-field-after-use)
 * [Remove shipping labels from cart/checkout/emails/orders table](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-remove-shipping-labels-from-cart-checkout-orders-table)
 * [Show regural and sale price in cart](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-show-regural-and-sale-price-in-cart)
-* [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sort-cart-items-alphabetically)
 
 ### Woocommerce Cart Page Snippets (Folder)
+* [Sort cart items alphabetically](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-cart-page-snippets/woocommerce-sort-cart-items-alphabetically)
 
 ### Woocommerce Checkout Snippets (Folder)
 * [Add checkout fee for BACS payment](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-checkout-snippets/woocommerce-add-checkout-fee-for-bacs-payment)
