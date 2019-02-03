@@ -1,0 +1,8 @@
+<?php
+//Do NOT include the opening php tag
+
+//Stop Image Regeneration
+add_filter( 'woocommerce_background_image_regeneration', '__return_false' );
+
+
+
