@@ -40,6 +40,8 @@ Usefull snippets for woocommerce store.
 * [Remove reviews tab from product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-remove-reviews-tab-from-product-page)
 * [Rename Add To Cart button in product page](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-product-page-snippets/woocommerce-rename-add-to-cart-button-in-product-page)
 
+### Woocommerce Archive Pages Snippets (Folder)
+
 ### WordPress Snippets (Folder)
 Usefull WordPress snippets for increasing woocommerce store.
 
