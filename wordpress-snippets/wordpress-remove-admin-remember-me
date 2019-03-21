@@ -1,0 +1,11 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove admin remember me
+function xr_remove_remember_me() {        
+  echo '<style type="text/css">.forgetmenot { display:none; }</style>';
+}
+add_action('login_head', 'xr_remove_remember_me');
+
+
+
