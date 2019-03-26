@@ -56,6 +56,7 @@ Usefull WordPress snippets for increasing woocommerce store.
 * [Enable HSTS](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-enable-hsts)
 * [Remove Admin "Remember Me"](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-text-in-admin-footer)
 * [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
+* [Remove WP version](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version)
 * [Remove WP version from admin footer](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-version-from-admin-footer)
 * [Stop image compression](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-stop-image-compression)
 * [Stop RSS Feed](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-stop-rss-feed)
