@@ -53,6 +53,7 @@ Usefull WordPress snippets for increasing woocommerce store.
 * [Change the browser color on mobiles](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-the-browser-color-on-mobiles)
 * [Copy Analytics tracking code to header](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-copy-analytics-code-to-header)
 * [Disable Gutenberg Editor](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-disable-gutenberg-editor)
+* [Disable WP Auto Updates](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-disable-wp-auto-updates)
 * [Enable HSTS](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-enable-hsts)
 * [Remove Admin "Remember Me"](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-text-in-admin-footer)
 * [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
