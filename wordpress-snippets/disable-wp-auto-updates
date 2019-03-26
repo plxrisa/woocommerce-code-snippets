@@ -1,0 +1,9 @@
+<?php
+//Place this code in your wp-config.php file
+//Do NOT include the opening php tag
+
+//Disable WP Auto Updates
+define( 'WP_AUTO_UPDATE_CORE', false );
+
+
+
