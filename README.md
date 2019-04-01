@@ -8,6 +8,7 @@ Usefull snippets for woocommerce store.
 * [Disable tracking for failed orders](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-disable-tracking-for-failed-orders)
 * [Manage Orders: Add Custom Time To Date Column](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-manage-orders-add-custom-time-to-date-column)
 * [Redirect shop page to homepage](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-redirect-shop-page-to-homepage)
+* [Sortable Total Sales Column To Product List](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-sortable-total-sales-column-to-product-list)
 * [Stop Image Regeneration](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/woocommerce-stop-image-regeneration)
 
 ### Woocommerce Cart Page Snippets (Folder)
