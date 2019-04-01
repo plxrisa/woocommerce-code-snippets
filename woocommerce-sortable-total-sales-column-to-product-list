@@ -1,0 +1,34 @@
+<?php
+//Do NOT include the opening php tag
+
+//Sortable Total Sales Column To Product List
+function xr_total_sales_to_product_list( $col_th ) {
+  return wp_parse_args( array( 'total_sales' => 'Totla Sales' ), $col_th );
+}
+add_filter( 'manage_edit-product_columns', 'xr_total_sales_to_product_list', 20 );
+
+function xr_display_total_sales_to_product_list( $column_id ) {
+  if( $column_id  == 'total_sales' )
+  echo get_post_meta( get_the_ID(), 'total_sales', true );
+}
+add_action( 'manage_posts_custom_column', 'xr_display_total_sales_to_product_list' );
+
+function xr_sort_total_sales_in_product_list( $a ) {
+  return wp_parse_args( array( 'total_sales' => 'by_total_sales' ), $a );
+}
+add_filter('manage_edit-product_sortable_columns', 'xr_sort_total_sales_in_product_list');
+
+function xr_total_sales_query_for_product_list( $query ) {
+  if( !is_admin() || empty( $_GET['orderby']) || empty( $_GET['order'] ) )
+  return;
+  if( $_GET['orderby'] == 'by_total_sales' ) {
+    $query->set('meta_key', 'total_sales' );
+    $query->set('orderby', 'meta_value_num');
+    $query->set('order', $_GET['order'] );
+  }
+  return $query;
+}
+add_action( 'pre_get_posts', 'xr_total_sales_query_for_product_list' );
+
+
+
