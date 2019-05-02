@@ -1,0 +1,16 @@
+<?php
+//Do NOT include the opening php tag
+
+//Remove Refund Reason From Emails
+function xr_remove_refund_reason_from_emails( $total_rows, $order, $tax_display ) {
+  foreach ( $total_rows as $id => $row ) {
+    if ( false !== stripos( $id, 'refund_' ) ) {
+      $total_rows[ $id ]['label'] = __( 'Refund Amount' );
+    }
+  }
+return $total_rows;
+}
+add_filter( 'woocommerce_get_order_item_totals', 'xr_remove_refund_reason_from_emails', 10, 3 );
+
+
+
