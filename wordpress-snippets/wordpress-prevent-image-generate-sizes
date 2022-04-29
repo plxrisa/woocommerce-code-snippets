@@ -2,12 +2,12 @@
 //Do NOT include the opening php tag
 
 // Prevent Generate 768px Photos
-function xr_prevent_image-generates-sizes ( $sizes ) {
+function xr_prevent_image_generates_sizes ( $sizes ) {
  unset( $sizes['small']); // 150px
  unset( $sizes['medium']); // 300px
  unset( $sizes['large']); // 1024px
  unset( $sizes['medium_large']); // 768px
  return $sizes;
 }
-add_filter( 'intermediate_image_sizes_advanced', 'xr_prevent_image-generates-sizes' );
+add_filter( 'intermediate_image_sizes_advanced', 'xr_prevent_image_generates_sizes' );
 
