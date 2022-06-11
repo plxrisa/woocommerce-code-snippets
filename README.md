@@ -58,6 +58,7 @@ Usefull WordPress snippets for increasing woocommerce store.
 * [Disable Gutenberg Editor](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-disable-gutenberg-editor)
 * [Disable WP Auto Updates](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-disable-wp-auto-updates)
 * [Enable HSTS](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-enable-hsts)
+* [Prevent All Other Image Sizes To Generate](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-prevent-all-other-image-sizes-to-generate)
 * [Prevent Image Generates Sizes](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-prevent-image-generate-sizes)
 * [Remove Admin "Remember Me"](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-change-text-in-admin-footer)
 * [Remove WP logo from admin bar](https://github.com/plxrisa/woocommerce-code-snippets/blob/master/wordpress-snippets/wordpress-remove-wp-logo-from-admin-bar)
