@@ -1,0 +1,9 @@
+<?php
+//Do NOT include the opening php tag
+
+//Prevent All Other Image Sizes To Generate
+function xr_prevent_other_image__sizes_generate() {
+  remove_image_size('another-size');   // disable any other added image sizes
+}
+add_action('intermediate_image_sizes_advanced', 'xr_prevent_other_image__sizes_generate');
+
